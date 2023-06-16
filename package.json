@@ -1,0 +1,31 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "recipe app",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "targets": {
+    "main": false
+  },
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duvnjak-Ibrahim/forkify.git"
+  },
+  "author": "Ibrahim Duvnjak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Duvnjak-Ibrahim/forkify/issues"
+  },
+  "homepage": "https://github.com/Duvnjak-Ibrahim/forkify#readme",
+  "dependencies": {
+    "fracty": "^1.0.9"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.2",
+    "parcel": "^2.9.2"
+  }
+}
